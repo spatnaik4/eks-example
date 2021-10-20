@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<jdbcDataAdapter class="net.sf.jasperreports.data.jdbc.JdbcDataAdapterImpl"><name>Snowflake</name><driver>net.snowflake.client.jdbc.SnowflakeDriver</driver><username>snowflakeTester000</username><password>T3stingSnowFlake4This30Days!</password><savePassword>true</savePassword><url>jdbc:snowflake://oo30185.eu-west-2.aws.snowflakecomputing.com?role=PUBLIC&amp;warehouse=MYTEST_WH&amp;db=SNOWFLAKE_SAMPLE_DATA&amp;CLIENT_METADATA_REQUEST_USE_CONNECTION_CTX=true</url><database></database><serverAddress></serverAddress></jdbcDataAdapter>
