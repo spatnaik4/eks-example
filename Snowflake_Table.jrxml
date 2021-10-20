@@ -7,7 +7,7 @@
 	<property name="ireport.jasperserver.user" value="superuser"/>
 	<property name="ireport.jasperserver.report.resource" value="/public/Snowflake_Table_files/main_jrxml"/>
 	<property name="ireport.jasperserver.reportUnit" value="/public/Snowflake_Table"/>
-	<property name="net.sf.jasperreports.data.adapter" value="/samples/data/Snowflake.xml"/>
+	<property name="net.sf.jasperreports.data.adapter" value="Snowflake.xml"/>
 	<style name="Table_TH" mode="Opaque" backcolor="#F0F8FF">
 		<box>
 			<pen lineWidth="0.5" lineColor="#000000"/>
