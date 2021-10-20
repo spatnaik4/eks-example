@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 7.10.0.beta-v202110071607 using JasperReports Library version develop-53-SNAPSHOT-6ebefa3eabb9b5f3cf2892e77c41c887e5b2baed  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="gbqreport" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="a1debd6e-aab0-441f-b37d-c2ad04e5ec48">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="gbq.xml"/>
+	<property name="com.jaspersoft.studio.data.sql.tables">
+		<![CDATA[YGphc3BlcnNvZnQtcWEuYXNhYmhlcndhbF9kYXRhc2V0LlNhbXBsZV9haXJwb3J0c2AgLDE1LDE1
+LDM3ODFlZjAxLWJiNGMtNDIzNC05YTkxLWM2YWQyYWZhZmI4NTs=]]>
+	</property>
+	<property name="net.sf.jasperreports.data.adapter" value="gbq.xml"/>
+	<queryString>
+		<![CDATA[SELECT *
+FROM `jaspersoft-qa.asabherwal_dataset.Sample_airports`]]>
+	</queryString>
+	<field name="IATA" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="IATA"/>
+		<property name="com.jaspersoft.studio.field.label" value="IATA"/>
+	</field>
+	<field name="AIRPORT" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="AIRPORT"/>
+		<property name="com.jaspersoft.studio.field.label" value="AIRPORT"/>
+	</field>
+	<field name="CITY" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="CITY"/>
+		<property name="com.jaspersoft.studio.field.label" value="CITY"/>
+	</field>
+	<field name="STATE" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="STATE"/>
+		<property name="com.jaspersoft.studio.field.label" value="STATE"/>
+	</field>
+	<field name="COUNTRY" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="COUNTRY"/>
+		<property name="com.jaspersoft.studio.field.label" value="COUNTRY"/>
+	</field>
+	<field name="LATITUDE" class="java.lang.Double">
+		<property name="com.jaspersoft.studio.field.name" value="LATITUDE"/>
+		<property name="com.jaspersoft.studio.field.label" value="LATITUDE"/>
+	</field>
+	<field name="LONGITUDE" class="java.lang.Double">
+		<property name="com.jaspersoft.studio.field.name" value="LONGITUDE"/>
+		<property name="com.jaspersoft.studio.field.label" value="LONGITUDE"/>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<summary>
+		<band height="300" splitType="Stretch">
+			<textField>
+				<reportElement x="188" y="109" width="100" height="30" uuid="9b2bbc05-78fc-4003-bc5c-bf5c8d921dfd"/>
+				<textFieldExpression><![CDATA[$F{IATA}]]></textFieldExpression>
+			</textField>
+		</band>
+	</summary>
+</jasperReport>

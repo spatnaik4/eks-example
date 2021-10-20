@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<jdbcDataAdapter class="net.sf.jasperreports.data.jdbc.JdbcDataAdapterImpl"><name>SFDataAdapter</name><driver>tibcosoftware.jdbc.sforce.SForceDriver</driver><username>dbooth@tibco.com.devsfdc</username><password>Need2Chg?</password><savePassword>true</savePassword><url>jdbc:tibcosoftware:sforce://na90.salesforce.com;SecurityToken=VQRshNuaRovgflCo4mVOMOeC;TransactionMode=ignore;StmtCallLimit=1000;databaseName=database</url><database></database><serverAddress></serverAddress></jdbcDataAdapter>
